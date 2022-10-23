@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, user-scalable=no">
+   <script src="wordle.js"></script>
+   <style>
+    #title{font-size:36px; font-weight:bold; text-align:center; font-family: Arial, cursive;}
+    hr{width:500px;}
+    #board{width:350px;height:420px; display:flex; flex-wrap: wrap; margin: 0 auto; margin-top:3px;}
+    .tile{border:2px solid lightgrey; width: 60px; height: 60px; margin: 2.5px;
+      font-weight:bold; color:black; font-size:36px; display:flex; justify-content:center; align-items: center;}
+    .correct{background:#6AAA64; color: white; border-color:white;}
+    .present{background-color:#C9B458; color:white; border-color:white;}
+    .absent{background-color:#787C7E; color:white; border-color:white;}
+   </style>
+</head>
+<body>
+  <h1 id="title">Wordle</h1>
+  <hr>
+  <br>
+  <div id="board">
+    <p></p>
+  </div>
+
+  <br>
+  <h1 id="answer"></h1>
+    </body>
+</html>
